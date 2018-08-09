@@ -24,5 +24,16 @@ faas-cli new --lang faaschain mychain  Edit handler.go
 vim mychain/handler.go  </description>
     </item>
     
+    <item>
+      <title>I&#39;m Swarvanu Sengupta</title>
+      <link>https://s8sg.github.io/about/</link>
+      <pubDate>Thu, 09 Aug 2018 17:46:05 +0900</pubDate>
+      
+      <guid>https://s8sg.github.io/about/</guid>
+      <description>A software engineer in Seoul, SouthKorea
+aboutMe := map[string][]string { &amp;quot;languages&amp;quot; : { &amp;quot;go&amp;quot;, &amp;quot;java&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;C++&amp;quot;, &amp;quot;python&amp;quot; }, &amp;quot;interests&amp;quot; : []string{ &amp;quot;Cloud, Distributed System&amp;quot;, &amp;quot;Container and Co.&amp;quot;, &amp;quot;Recently ML&amp;quot; } }  Experience spreading across Application development, Computer Network, Building Cloud Based Solution, high-performance and high-availability distributed environments
+View my code on GitHub, connect with me on LinkedIn and check out my work below.</description>
+    </item>
+    
   </channel>
 </rss>
