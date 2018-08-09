@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://tomanistor.com/</loc>
+      <loc>https://s8sg.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+      <loc>https://s8sg.github.io/</loc>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+      <loc>https://s8sg.github.io/tags/</loc>
       <priority>0</priority>
     </url>
   
