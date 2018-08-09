@@ -131,7 +131,10 @@
 
 <p>faaschain allows to execute <a href="github.com/openfaas">openfaas</a> function as chain</p>
 
-<pre><code class="language-go">	chain.Apply(func1).Apply(func2).ApplyModifier(somemodifier).ApplyAsync(func3).Apply(func4)ApplyAsync(func5).Callback(url)
+<pre><code class="language-go">	chain.Apply(func1).Apply(func2).
+	      ApplyModifier(somemodifier).
+              ApplyAsync(func3).Apply(func4).
+              ApplyAsync(func5).Callback(url)
 </code></pre>
 
 <h4 id="getting-started">Getting Started</h4>
@@ -201,7 +204,7 @@
         Copyright &copy; 2018 Swarvanu Sengupta.
       
       
-        <a href="https://tomanistor.com" target="_blank">Theme developed by Toma Nistor</a>
+        <a href="https://hugo.com" target="_blank">Build In Hugo</a>
       
     </div>
   

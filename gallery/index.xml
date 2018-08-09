@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galleries on Swarvanu Sengupta</title>
+    <link>https://s8sg.github.io/gallery/</link>
+    <description>Recent content in Galleries on Swarvanu Sengupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 09 Aug 2018 17:47:17 +0900</lastBuildDate>
+    
+	<atom:link href="https://s8sg.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DailyIoT</title>
+      <link>https://s8sg.github.io/gallery/daily-iot/</link>
+      <pubDate>Thu, 09 Aug 2018 17:47:17 +0900</pubDate>
+      
+      <guid>https://s8sg.github.io/gallery/daily-iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FaaSChain</title>
+      <link>https://s8sg.github.io/gallery/faaschain/</link>
+      <pubDate>Thu, 09 Aug 2018 17:47:17 +0900</pubDate>
+      
+      <guid>https://s8sg.github.io/gallery/faaschain/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
