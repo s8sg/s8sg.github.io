@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  
+
+  <title>
+    
+    
+        FaaSChain | Swarvanu Sengupta
+    
+  </title>
+
+  <meta name="title" content="FaaSChain | Swarvanu Sengupta">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="generator" content="">
+  <base href="https://s8sg.github.io">
+
+  
+    <meta name="description" content="A post about faaschain">
+  
+
+  
+    <meta name="author" content="s8sg">
+  
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@s8sg">
+    <meta name="twitter:creator" content="@s8sg">
+  
+
+  <meta property="og:title" content="FaaSChain | Swarvanu Sengupta">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://s8sg.github.io">
+
+  
+    <meta property="og:image" content="https://s8sg.github.io/images/osprey-logo.png">
+  
+
+  
+    <meta name="og:description" content="A post about faaschain">
+  
+
+  
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+    <meta name="theme-color" content="#FFF">
+  
+
+  <link rel="canonical" href="https://s8sg.github.io/blog/faaschain/">
+
+  
+
+  <link rel="stylesheet" href="https://s8sg.github.io/styles/main.css" type="text/css">
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+
+  
+</head>
+
+  <body>
+    
+
+
+
+<nav class="row middle-xs center-xs">
+  <div class="col-xs-6 col-sm-1 logo">
+    <a href="https://s8sg.github.io#"><img src="https://s8sg.github.io/images/ss-logo.jpg" alt="Swarvanu Sengupta"></a>
+  </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://s8sg.github.io/#about">About</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://s8sg.github.io/#work">Work</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://s8sg.github.io/#blog">Blog</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2">
+        <h3><a href="https://s8sg.github.io/#contact">Contact</a></h3>
+      </div>
+    
+  <div class="col-xs-6 col-sm-1 nav-toggle">
+      <a href="" class="nav-icon" onclick="return false"><img src="https://s8sg.github.io/images/icon-menu.png" alt="Open Menu"><img src="https://s8sg.github.io/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
+  </div>
+</nav>
+
+<section class="nav-full row middle-xs center-xs">
+  <div class="col-xs-12">
+    <div class="row middle-xs center-xs">
+      
+        <div class="col-xs-12"><h1><a href="https://s8sg.github.io/#about">About</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://s8sg.github.io/#work">Work</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://s8sg.github.io/#blog">Blog</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="https://s8sg.github.io/#contact">Contact</a></h1></div>
+      
+    </div>
+  </div>
+</section>
+
+    <main>
+
+      <section class="container">
+          <section class="content">
+              <h1> FaaSChain </h1>
+
+              <div class="sub-header">
+                  August 9, 2018 · 1 minute read
+              </div>
+
+              <article class="entry-content">
+                  
+
+<h3 id="faaschain-faas-functions-as-chain">FaaSChain - FaaS Functions as Chain</h3>
+
+<p>faaschain allows to execute <a href="github.com/openfaas">openfaas</a> function as chain</p>
+
+<pre><code class="language-go">	chain.Apply(func1).Apply(func2).ApplyModifier(somemodifier).ApplyAsync(func3).Apply(func4)ApplyAsync(func5).Callback(url)
+</code></pre>
+
+<h4 id="getting-started">Getting Started</h4>
+
+<p>Get faas-chain template</p>
+
+<pre><code>faas-cli template pull https://github.com/s8sg/faaschain
+</code></pre>
+
+<p>Create a new github function</p>
+
+<pre><code>faas-cli new --lang faaschain mychain
+</code></pre>
+
+<p>Edit <code>handler.go</code></p>
+
+<pre><code>vim mychain/handler.go
+</code></pre>
+
+              </article>
+
+              <div class="pagination">
+                  
+                  
+              </div>
+          </section>
+          <br>
+          <section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+      var disqus_shortname = 's8sg';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view comments powered by <a href="http://disqus.com/?ref_noscript">Disqus</a>.</noscript>
+</section>
+
+      </section>
+
+    </main>
+    <footer class="row middle-xs center-xs">
+
+  
+  
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://github.com/s8sg">GitHub</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://linkedin.com/in/swarvanusg">LinkedIn</a></div>
+  
+
+  
+    <div class="col-xs-3 col-md-2"><a target="_blank" href="https://twitter.com/s8sg">Twitter</a></div>
+  
+
+  
+    <div class="col-xs-12">
+      
+        Copyright &copy; 2018 Swarvanu Sengupta.
+      
+      
+        <a href="https://tomanistor.com" target="_blank">Theme developed by Toma Nistor</a>
+      
+    </div>
+  
+
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+  <script src="https://s8sg.github.io/scripts/main.min.js" type="text/javascript"></script>
+
+
+  </body>
+</html>

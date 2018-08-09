@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>https://s8sg.github.io/blog/faaschain/</loc>
+      <lastmod>2018-08-09T17:47:03+09:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://s8sg.github.io/blog/</loc>
+      <lastmod>2018-08-09T17:47:03+09:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
       <loc>https://s8sg.github.io/categories/</loc>
       <priority>0</priority>
     </url>
   
     <url>
       <loc>https://s8sg.github.io/</loc>
+      <lastmod>2018-08-09T17:47:03+09:00</lastmod>
       <priority>0</priority>
     </url>
   
